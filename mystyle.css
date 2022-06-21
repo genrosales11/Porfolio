@@ -37,7 +37,7 @@
 
 
 /*home section*/
-#Home{
+#home{
     display: flex;
     flex-direction: column;
     background-color: black;
@@ -54,10 +54,10 @@
     align-items: center;
     position: absolute;
     top: 30%;
-    left: 10px;
+    left: 50%;
 }
 
-.heading{
+.headings{
     font-family: century;
     font-size: medium;
     text-align: center;
@@ -70,30 +70,48 @@
     display: flex;
     flex-direction: column;
     box-sizing:border-box;
-    padding: 20px;
-
-margin-bottom: 50px;
-
-
+    padding: 60px;
+margin-bottom: 20px;
 }
 #pic{
     display: flex;
 
 }
 #pic img{
-    width: 575px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 
 }
 #intro{
     display: flex;
     flex-direction: column;
     text-align: justify;
-    padding: 10px;
+    padding: 20px;
 
 }
 #intro h2{
     font-size: 2rem;
     margin-bottom: 20px;
+
+}
+/*porfolio*/
+#Porfolio {
+    display: flex;
+    flex-direction: column;
+    background-color: black; 
+    color: white;
+
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.gallery img{
+    width: 360px;
+    height: 240px;
 
 }
