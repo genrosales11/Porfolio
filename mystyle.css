@@ -33,6 +33,7 @@
     background-color: white;
     color: black;
     box-shadow: 0 0 10px white;
+   
 }
 
 
@@ -115,3 +116,10 @@ margin-bottom: 20px;
     height: 240px;
 
 }
+/* contact section */
+ #contact{
+     display: flex;
+     flex-direction: column;
+    
+
+ }
